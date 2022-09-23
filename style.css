@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.containerPrincipal{
+    background-image: url(/img/surfer-blue-wave.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.caixaTextoPrincipal{
+    margin-left: 20px;
+}
+
+.caixaTextoPrincipal h1{
+font-size: 100px;
+font-weight: 700;
+color: white;
+text-shadow: 2px 2px 20px  rgb(219, 219, 217);
+}
+
+
+.caixaTextoPrincipal p{
+    font-size: 30px;
+    color: yellow;
+    text-shadow: 2px 2px 20px  rgb(219, 219, 217);
+    font-weight: 400;
+}
+
+
+
+
+
+.caixa__Subscribe{
+    background-color: rgb(226, 222, 222);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caixa__Subscribe h1{
+    margin-bottom: 20px;
+    color: rgb(22, 22, 22);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.caixa__Subscribe input{
+    height: 40px;
+    max-width: 400px;
+    border: none;
+    border-radius: 8px;
+    margin-right: -10px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.caixa__Subscribe button{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 0.5rem 3rem;
+    border-radius: 0 8px 8px 0;
+    font-size: 1rem;
+    
+}
+
+
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+  }
+
+
+
+
+
+.container__Faixa2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+.faixa2__caixaImagem{
+    width: 50%;
+    text-align: center;
+}
+
+.faixa2__caixaTexto{
+    width: 50%;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+.faixa2__caixaTexto h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faixa2__caixaTexto p{
+    font-size: 1.3rem;
+    line-height: 1.4em;
+}
+
+.faixa2__caixaImagem img{
+    width: 90%;
+    height: 700px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width:780px) {
+    .container__Faixa2{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .faixa2__caixaImagem{
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .faixa2__caixaTexto{
+        width: 90%;
+    }
+
+    .faixa2__caixaTexto h1{
+        font-size: 1.8rem;
+    }
+
+    
+    .faixa2__caixaTexto p{
+        font-size: 1.3rem;
+    }
+
+    .faixa2__caixaImagem img{
+        width: 100%;
+        height: 400px;
+    }
+}
