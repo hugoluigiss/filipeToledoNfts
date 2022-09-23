@@ -6,11 +6,12 @@
     font-family: 'Roboto', sans-serif;
 }
 .containerPrincipal{
-    background-image: url(/img/surfer-blue-wave.jpg);
+    background-image: url(/img/full\ filipe.webp);
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
+    background-color: black;
 }
 
 
@@ -40,12 +41,13 @@ text-shadow: 2px 2px 20px  rgb(219, 219, 217);
 .caixa__Subscribe{
     background-color: rgb(226, 222, 222);
     width: 100%;
-    height: 200px;
+    height: 250px;
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-top: 250px;
 }
 
 .caixa__Subscribe h1{
@@ -55,9 +57,13 @@ text-shadow: 2px 2px 20px  rgb(219, 219, 217);
     font-weight: 600;
 }
 
+form{
+    width: 100%;
+}
+
 .caixa__Subscribe input{
     height: 40px;
-    max-width: 400px;
+    width: 40%;
     border: none;
     border-radius: 8px;
     margin-right: -10px;
@@ -68,7 +74,7 @@ text-shadow: 2px 2px 20px  rgb(219, 219, 217);
 .caixa__Subscribe button{
     background-color: rgb(22, 22, 22);
     color: white;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 0.5rem;
     border-radius: 0 8px 8px 0;
     font-size: 1rem;
     
@@ -117,10 +123,37 @@ text-shadow: 2px 2px 20px  rgb(219, 219, 217);
     line-height: 1.4em;
 }
 
+
 .faixa2__caixaImagem img{
     width: 90%;
-    height: 700px;
+    height: 600px;
     object-fit: cover;
+    border-radius: 16px;
+}
+
+
+
+
+
+.container__NFTBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 50px;
+}
+
+.faixa2__nftCard{
+    width: 50%;
+    text-align: center;
+}
+
+.faixa2__nftCard img{
+    width: 50%;
+}
+
+.faixa2__nftTexo{
+    width: 50%;
+    text-align: center;
 }
 
 
@@ -139,6 +172,10 @@ text-shadow: 2px 2px 20px  rgb(219, 219, 217);
         width: 90%;
     }
 
+    .caixa__Subscribe input{
+        width: 80%;
+    }
+
     .faixa2__caixaTexto h1{
         font-size: 1.8rem;
     }
@@ -151,5 +188,26 @@ text-shadow: 2px 2px 20px  rgb(219, 219, 217);
     .faixa2__caixaImagem img{
         width: 100%;
         height: 400px;
+    }
+
+
+    .container__NFTBox{
+        flex-direction: column;
+        margin: 30px 0;
+    }
+
+    .faixa2__nftCard{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .faixa2__nftCard img{
+        width: 100%;
+    }
+    
+    .faixa2__nftTexo{
+        width: 100%;
+        text-align: center;
+        margin-top: 150px;
     }
 }
